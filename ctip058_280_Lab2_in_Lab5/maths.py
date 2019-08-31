@@ -40,3 +40,6 @@ def convert_base(num, n):
         new_num_string = remainder_string+new_num_string
         current = current//n
     return new_num_string
+
+def factorial(number):
+    """Returns the factorial of a number equal to or greater than 0."""
